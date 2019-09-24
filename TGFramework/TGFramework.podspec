@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TGFramework"
-  spec.version      = "2.0.0"
+  spec.version      = "4.0.0"
   spec.summary      = "This is a test framework sjfnikfskfnskfnk"
 
   # This description is used to generate tags and improve search results.
@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source = { :git => "https://github.com/teodoragarashanin/TGFramework.git", :tag => "2.0.0" }
+  spec.source = { :git => "https://github.com/teodoragarashanin/TGFramework.git", :tag => "4.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
