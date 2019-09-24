@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TGFramework"
-  spec.version      = "1.0.0"
+  spec.version      = "2.0.0"
   spec.summary      = "This is a test framework sjfnikfskfnskfnk"
 
   # This description is used to generate tags and improve search results.
@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "Teodora Garasanin" => "t.garasanin@levi9.com" }
   # Or just: spec.author    = "Teodora Garasanin"
-  # spec.authors            = { "Teodora Garasanin" => "t.garasanin@levi9.com" }
+   spec.authors            = { "Teodora Garasanin" => "t.garasanin@levi9.com" }
   # spec.social_media_url   = "https://twitter.com/Teodora Garasanin"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -61,8 +61,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-    spec.platform = :ios
-  #spec.platform     = :ios, "11.0"
+  #spec.platform = :ios
+    spec.platform     = :ios, "11.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -77,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source = { :git => "https://github.com/teodoragarashanin/TGFramework.git", :tag => "1.0.0" }
+  spec.source = { :git => "https://github.com/teodoragarashanin/TGFramework.git", :tag => "2.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -127,7 +127,7 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  spec.requires_arc = true
+    spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
