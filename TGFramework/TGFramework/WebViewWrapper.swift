@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import WebKit
 
 public class WebViewWrapper {
     
